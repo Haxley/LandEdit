@@ -1,0 +1,22 @@
+---
+- ID: 0
+  startX: 260.000000
+  endX: 276.000000
+  startZ: 244.000000
+  endZ: 256.000000
+  price: 22100.000000
+  owner: BlockBach
+  level: world
+  invitee: []
+  expires: ~
+- ID: 1
+  startX: 258.000000
+  endX: 276.000000
+  startZ: 271.000000
+  endZ: 290.000000
+  price: 38000.000000
+  owner: KeithDavisRatio
+  level: world
+  invitee: []
+  expires: ~
+...
