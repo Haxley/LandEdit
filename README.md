@@ -1,7 +1,7 @@
 # LandEdit
 Land.yml file editor for EconomyLand
 
-Work in progress, not currently functioning. 
+New, work in progress, not currently functioning, see Issues tab. 
 
 You must change first two paths in landedit.php to the local paths of your spyc.php and land.yml files. 
 
