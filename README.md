@@ -11,4 +11,3 @@ Step 3: Open Terminal and navigate to the folder LandEdit.php is located in.
 Step 4: Type ```php landedit.php``` in Terminal
 Step 5: Follow prompts and enjoy weapon of mass land claim destruction. 
 
-
