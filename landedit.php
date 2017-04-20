@@ -1,18 +1,8 @@
 <?php
 
-#
-#    S P Y C
-#      a simple php yaml class
-#
-# license: [MIT License, http://www.opensource.org/licenses/mit-license.php]
-#
-
-include('/Users/keithdavis/MineCraft/pocketmine-mp/plugins/EconomyLand/Spyc.php');
-
 #Loads Land.yml into PHP Array
-$array = Spyc::YAMLLoad('/Users/keithdavis/Documents/GitHub/LandEdit/Land.yml');
-
-$file = 'Land.yml';
+$file = '/Users/keithdavis/MineCraft/pocketmine-mp/plugins/EconomyLand/Land.yml';
+$array = yaml_parse_file($file);
 
 echo "Loaded into PHP: \n";
 print_r($array);
@@ -35,7 +25,7 @@ if ($answer == 1){
       echo "...Removed claims owned by $ownerName \n";
 
       #Sends data back to Land.yml
-      $landAfterDump = Spyc::YAMLDump($array);
+      $landAfterDump = yaml_emit(array_values($array));
       file_put_contents($file, $landAfterDump);
       echo "YAML Data dumped back: \n";
       echo $landAfterDump;
@@ -57,7 +47,8 @@ if ($answer == 1){
 
 
       #Sends data back to Land.yml
-      $landAfterDump = Spyc::YAMLDump($array);
+      $landAfterDump = yaml_emit(array_values($array));
+      file_put_contents($file, $landAfterDump);
       echo "YAML Data dumped back: \n";
       echo $landAfterDump;
   }
