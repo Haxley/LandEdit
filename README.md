@@ -4,7 +4,7 @@
 ### This program can 
 * 1: Delete all land claims owned by a player. 
 * 2: Delete all land claims except for a player. 
-* 3: Detele all land claims in a geographical area (coming soonish)
+* 3: Detele all land claims in a geographical area (coming soonish).
 
 ### You must have the PECL YAML extension installed.
 * http://php.net/manual/en/yaml.installation.php
