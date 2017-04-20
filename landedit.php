@@ -22,13 +22,13 @@ if ($answer == 1){
 
       #Removes owner from array
       $array = removeElementWithValue($array, 'owner', $ownerName);
-      echo "...Removed claims owned by $ownerName \n";
 
       #Sends data back to Land.yml
       $landAfterDump = yaml_emit(array_values($array));
       file_put_contents($file, $landAfterDump);
       echo "YAML Data dumped back: \n";
       echo $landAfterDump;
+      echo "...Successfully removed claims owned by $ownerName \n";
 
   }else{
       echo 'Did not find ' . $ownerName . "\n";
@@ -43,14 +43,13 @@ if ($answer == 1){
 
       #Removes from array except owner
       $array = removeElementWithValueExcept($array, 'owner', $ownerName);
-      echo "...Removed claims not owned by $ownerName \n";
-
 
       #Sends data back to Land.yml
       $landAfterDump = yaml_emit(array_values($array));
       file_put_contents($file, $landAfterDump);
       echo "YAML Data dumped back: \n";
       echo $landAfterDump;
+      echo "...Successfully removed claims not owned by $ownerName \n";
   }
   else {
         echo 'Did not find ' . $ownerName . "\n";
