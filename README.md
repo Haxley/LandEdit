@@ -16,6 +16,6 @@
 ### How to use:
 * Step 1: Download LandEdit.php and move to the location of your Land.yml file.
 * Step 2: Open Terminal and navigate to the folder LandEdit.php is located in.
-(i.e. type ```/Users/Haxley/MineCraft/pocketmine-mp/plugins/EconomyLand``` in Terminal)
+(for example type ```cd /Users/Haxley/MineCraft/pocketmine-mp/plugins/EconomyLand``` in Terminal)
 * Step 3: Type ```php LandEdit.php``` in Terminal
 * Step 4: Follow prompts and enjoy weapon of mass land claim destruction. 
