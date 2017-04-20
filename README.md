@@ -1,6 +1,5 @@
 # LandEdit
 ## Land.yml file editor for EconomyLand
-
 ### This program can 
 * 1: Delete all land claims owned by a player. 
 * 2: Delete all land claims except for a player. 
@@ -17,4 +16,3 @@
 (i.e. type ```cd /Users/keithdavis/Documents/GitHub/LandEdit``` in Terminal)
 * Step 3: Type ```php LandEdit.php``` in Terminal
 * Step 4: Follow prompts and enjoy weapon of mass land claim destruction. 
-

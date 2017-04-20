@@ -1,7 +1,7 @@
 <?php
 
 #Loads Land.yml into PHP Array
-$file = '/Users/keithdavis/MineCraft/pocketmine-mp/plugins/EconomyLand/Land.yml';
+$file = __DIR__ . '/Land.yml';
 $array = yaml_parse_file($file);
 
 echo "Loaded into PHP: \n";
@@ -9,8 +9,9 @@ print_r($array);
 
 echo "Would you like to
 \n1: Delete all land claims by owner?
-\n2: Delete all land claims except owner?\n";
-$answer = readline("\nType 1 or 2: ");
+\n2: Delete all land claims except owner?
+\n3: Delete all land claims in an area?\n";
+$answer = readline("\nType 1, 2, or 3: ");
 
 #Answer 1
 if ($answer == 1){
@@ -54,11 +55,23 @@ if ($answer == 1){
   else {
         echo 'Did not find ' . $ownerName . "\n";
   }
+
+#Answer 3
+}elseif ($answer == 3){
+
+echo "Feature coming soonish \n";
+/*
+  $xStart = readline("What is the starting X coordinate:  ");
+  $zStart = readline("What is the starting Z coordinate:  ");
+  $xEnd = readline("what is the ending X coordinate:  ");
+  $zEnd = readline("What is the ending Z coordinate:  ");
+
+  #Determine if claims exist between coordinates
+*/
+
 }else {
   echo "Input not recognized. Please run program again.\n";
 }
-
-
 #Remove from array
 function removeElementWithValue($array, $key, $value){
      foreach($array as $subKey => $subArray){
