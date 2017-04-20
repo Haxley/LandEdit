@@ -7,7 +7,7 @@
 * 3: Detele all land claims in a geographical area (coming soonish)
 
 ### You must have the PECL YAML extension installed.
-* *** http://php.net/manual/en/yaml.installation.php
+* http://php.net/manual/en/yaml.installation.php
 
 ### Make a backup of your Land.yml file before using this program. 
 
