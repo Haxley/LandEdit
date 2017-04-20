@@ -10,7 +10,7 @@
 
 ### How to use:
 * Step 1: Download LandEdit.php
-* Step 2: Open LandEdit.php in your text editor/preferred coding environment and change the ```$file``` path to your Land.yml file's path
+* Step 2: Open LandEdit.php in your text editor or preferred coding environment and change the ```$file``` path to your Land.yml file's path
 * Step 3: Open Terminal and navigate to the folder LandEdit.php is located in.
 (i.e. type ```cd /Users/keithdavis/Documents/GitHub/LandEdit``` in terminal)
 * Step 4: Type ```php LandEdit.php``` in Terminal
