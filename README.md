@@ -1,7 +1,7 @@
 # LandEdit
 ## Land.yml file editor for EconomyLand
 
-### IMPORTANT: Make a backup of your Land.yml file before using this program. I'm not responsible if you accidentally delete a ton of land claims on your Minecraft server. 
+### IMPORTANT: Make a backup of your Land.yml file before using this program. 
 
 ### How to use:
 * Step 1: Download LandEdit.php
